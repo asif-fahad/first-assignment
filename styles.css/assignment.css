@@ -38,14 +38,31 @@
     background: #FD6E0A;
 }
 
-.failurs {
-    display: flex;
-}
-
 /* main section */
 main {
     max-width: 1140px;
     margin: 0 auto;
+}
+
+.failurs {
+    display: flex;
+    gap: 100px;
+}
+
+.failurs-left {}
+
+.failurs-right {
+    text-align: justify;
+    font-size: larger;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li:before {
+    content: '✓';
+    color: green;
 }
 
 .my-plans {
@@ -57,20 +74,34 @@ main {
     justify-content: space-around;
 }
 
-.footer {
-    max-width: 1140px;
-    margin: 0 auto;
-}
-
 .watch {
     background-image: url(../images/watch.png), url(../images/gradient1.png);
-    
     width: 900px;
     height: 200px;
     border-radius: 8px;
     margin-left: 100px;
+    margin-bottom: 50px;
+    margin-top: 50px;
     color: white;
     text-align: left;
     padding-top: 50px;
     padding-left: 50px;
+}
+
+.footer {
+    color: white;
+    display: flex;
+    background-color: black;
+    gap: 90px;
+
+}
+
+.footer-left {
+    display: inline-block;
+    padding: 100px;
+}
+
+.footer-right {
+    display: inline-block;
+    padding: 100px;
 }
