@@ -81,7 +81,7 @@
     height: 64px;
     border-radius: 5px;
     background: #FD6E0A;
-    /* Group 1 */
+    /* btn-primary */
     position: absolute;
     width: 160px;
     height: 64px;
@@ -119,6 +119,9 @@ main {
 .failurs-right {
     text-align: justify;
     font-size: larger;
+    padding-top: 150px;
+
+
 }
 
 ul {
@@ -140,7 +143,7 @@ ul li:before {
 }
 
 .watch {
-    background-image: url(../images/watch.png);
+    background-image: url(../images/gradient3.png), url(../images/watch.png);
     width: 900px;
     height: 200px;
     border-radius: 8px;
@@ -153,11 +156,16 @@ ul li:before {
     padding-left: 50px;
 }
 
+.about-me {
+    text-align: center;
+}
+
 .footer {
     color: white;
     display: flex;
     background-color: black;
     gap: 90px;
+    justify-content: space-around;
 
 }
 
@@ -175,3 +183,4 @@ ul li:before {
 .footer-left a {
     gap: 50px;
 }
+
